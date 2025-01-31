@@ -161,7 +161,7 @@ footer {
     font-size: 14px;
 }
 
-
+/* Адаптивність */
 @media (max-width: 900px) {
     .menu-item {
         width: calc(50% - 20px);
@@ -176,7 +176,7 @@ footer {
 
 .menu-item img {
     width: 100%;
-    height: 350px; 
-    object-fit: cover; 
+    height: 350px; /* Фиксированная высота */
+    object-fit: cover; /* Обрезает и масштабирует изображение без искажений */
     border-radius: 10px;
 }
